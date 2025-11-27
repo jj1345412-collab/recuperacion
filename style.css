@@ -1,0 +1,97 @@
+body{
+	font-family:Berlin Sans FB Demi;
+	background-color:white;
+	color:withe;
+	line-height:1.6;
+	text-align:center;
+}
+
+.leal{
+	font-family:Bernard MT Condensed;
+	background-color:f4f4f4;
+	color:#333;
+	line-height:1.6;
+	text-align:center;
+}
+
+.respe{
+	font-family:Bookman Old Style;
+	background-color:f4f4f4;
+	color:#333;
+	line-height:1.6;
+	text-align:center;
+	
+
+}
+
+.repo{
+	font-family:Agency FB;
+	background-color:f4f4f4;
+	color:#333;
+	line-height:1.6;
+	text-align:center;
+}	
+	
+
+header{	
+		background-color:white;
+		color:blue;
+		padding:20px;
+		text-align:center;
+	}
+
+header nav ul{
+list-style-type:none;
+
+}
+
+header nav ul li{
+	display:inline;
+	margin:0 15px;
+}	
+header nav ul li a{
+	color:blue;
+	text-decoration:none;
+	font-size:18px;
+}
+
+heder nav ul li a:hover{
+	text-decoration;underline;
+	
+}
+
+p{
+	font-family:Bodoni MT Black;
+}
+
+footer{
+	font-size:30px;
+	font-family:Arial Black;
+}
+.galeria{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin:20px auto;
+	max-width:1200px;
+}
+
+.galeria{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin:20px auto;
+    max-width:1200px;
+}
+.galeria img{	
+	width:300px;
+    height:200px;
+	object-fit:cover;
+    margin:10px;
+    BORDER-RADIUS:10PX;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+	transition:transform 0.3s;
+}
+.galeria img:hover{
+	transform:scale(1.05)
+}
